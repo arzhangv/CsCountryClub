@@ -22,7 +22,7 @@ const App: React.FC =()=> {
                           <Link to="/mission" >Mission</Link>
                       </li>
                       <li>
-                          <Link to="https://forms.gle/muPbbAdfpiHLmDF96">
+                          <Link to="/apply">
                             Apply
                           </Link>
                       </li>
