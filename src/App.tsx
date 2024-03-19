@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import { FaHome } from 'react-icons/fa';
 import Home from "./pages/Home";
 import Mission from "./pages/Mission";
 import Apply from "./pages/Apply";
@@ -16,7 +15,7 @@ const App: React.FC =()=> {
                   <ul>
                       <li>
                         <Link to="/" style={{ display: 'flex', alignItems: 'center' }}>
-                            <FaHome /> Home
+
                         </Link>
                       </li>
                       <li>
