@@ -1,11 +1,13 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { FaHome } from 'react-icons/fa';
 import Home from "./pages/Home";
 import Mission from "./pages/Mission";
 import Apply from "./pages/Apply";
 import About from "./pages/About";
 import './pages/navbar.css';
+
 const App: React.FC =()=> {
   return (
       <Router>
@@ -13,7 +15,9 @@ const App: React.FC =()=> {
               <nav>
                   <ul>
                       <li>
-                          <Link to="/">Home</Link>
+                        <Link to="/" style={{ display: 'flex', alignItems: 'center' }}>
+                            <FaHome /> Home
+                        </Link>
                       </li>
                       <li>
                           <Link to="/mission">Mission</Link>
