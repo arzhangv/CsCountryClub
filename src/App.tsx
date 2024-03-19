@@ -6,7 +6,7 @@ import Mission from "./pages/Mission";
 import Apply from "./pages/Apply";
 import About from "./pages/About";
 import './pages/navbar.css';
-
+import logo from './public/cscountryclublogo.png';
 const App: React.FC =()=> {
   return (
       <Router>
@@ -14,15 +14,17 @@ const App: React.FC =()=> {
               <nav>
                   <ul>
                       <li>
-                        <Link to="/" style={{ display: 'flex', alignItems: 'center' }}>
-
+                        <Link  to="/" style={{ display: 'flex', alignItems: 'center' }} >
+                            Home
                         </Link>
                       </li>
                       <li>
-                          <Link to="/mission">Mission</Link>
+                          <Link to="/mission" >Mission</Link>
                       </li>
                       <li>
-                          <Link to="/apply">Apply</Link>
+                          <Link to="https://forms.gle/muPbbAdfpiHLmDF96">
+                            Apply
+                          </Link>
                       </li>
                       <li>
                           <Link to="/about">About</Link>
