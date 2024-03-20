@@ -14,7 +14,7 @@ const App: React.FC =()=> {
               <nav>
                   <ul>
                       <li>
-                        <Link  to="/" style={{ display: 'flex', alignItems: 'center' }} >
+                        <Link  to="/" >
                             Home
                         </Link>
                       </li>
