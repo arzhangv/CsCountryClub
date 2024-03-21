@@ -1,8 +1,13 @@
 import React from "react";
 const Home: React.FC = () => {
     return (
-        <div className="bg-[url('/src/images/calabasas-country-club-home-photo.jpg')] h-96">
-            <div className="flex justify-center text-orange-600 text-3xl">The best for the best</div>
+
+
+        <div className= " rounded-sm bg-[url('/src/images/calabasas-country-club-home-photo.jpg')] flex flex-col items-center justify-center place-items-center h-96" >
+              <h2 className="text-5xl font-medium text-white font-semibold p-4" > CS Country Club </h2>
+
+              <h2 className="text-5xl font-medium text-white font-semibold p-4"> The Best for the Best</h2>
+
         </div>
     );
 };
