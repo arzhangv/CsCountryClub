@@ -1,16 +1,42 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Playfair Display", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: "Playfair Display", serif;
+}
+
+/* Style the scrollbar for Chrome, Edge, and Safari */
+::-webkit-scrollbar {
+  width: 8px; /* Reduced width for a thinner scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color of the tracking area, consider making it slightly darker or lighter than the page background for subtle contrast */
+  border-radius: 10px; /* Adds roundness to the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scroll thumb */
+  border-radius: 10px; /* Increased roundness of the scroll thumb for a sleeker look */
+  border: 2px solid transparent; /* Optional: Adds a transparent border to create a gap between the thumb and track */
+  background-clip: padding-box; /* Ensures the background only fills within the border, maintaining the gap effect */
+}
+
+/* Handle the hover state of the scroll thumb */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Darker color of the scroll thumb when hovered for better visibility and interaction */
+}
+
+/* Style the scrollbar for Firefox */
+* {
+  scrollbar-width: thin; /* Keeps it "thin" for a sleek appearance */
+  scrollbar-color: #888 #f1f1f1; /* thumb and track color, maintaining the sleek look */
 }
