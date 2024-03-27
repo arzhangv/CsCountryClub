@@ -1,15 +1,15 @@
 import React from "react";
-import tesla_logo from "./tesla.png"
-import meta_logo from "./meta.png"
-import microsoft_logo from "./microsoft.png"
-import amazon_logo from "./amazon.png"
-import datadog_logo from "./datadog.png"
-import tiktok_logo from "./tiktok.png"
-import google_logo from "./google.png"
-import coinbase_logo from "./coinbase.png"
-import roblox_logo from "./roblox.png"
-import palantir_logo from "./palantir.png"
-import snowflake_logo from "./snowflake.png"
+import tesla_logo from "../../assets/images/logos/tesla.png"
+import meta_logo from "../../assets/images/logos/meta.png"
+import microsoft_logo from "../../assets/images/logos/microsoft.png"
+import amazon_logo from "../../assets/images/logos/amazon.png"
+import datadog_logo from "../../assets/images/logos/datadog.png"
+import tiktok_logo from "../../assets/images/logos/tiktok.png"
+import google_logo from "../../assets/images/logos/google.png"
+import coinbase_logo from "../../assets/images/logos/coinbase.png"
+import roblox_logo from "../../assets/images/logos/roblox.png"
+import palantir_logo from "../../assets/images/logos/palantir.png"
+import snowflake_logo from "../../assets/images/logos/gitsnowflake.png"
 const Home: React.FC = () => {
   return (
     <div className="flex flex-col">
