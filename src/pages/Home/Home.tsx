@@ -9,7 +9,7 @@ import google_logo from "../../assets/images/logos/google.png"
 import coinbase_logo from "../../assets/images/logos/coinbase.png"
 import roblox_logo from "../../assets/images/logos/roblox.png"
 import palantir_logo from "../../assets/images/logos/palantir.png"
-import snowflake_logo from "../../assets/images/logos/gitsnowflake.png"
+import snowflake_logo from "../../assets/images/logos/snowflake.png"
 const Home: React.FC = () => {
   return (
     <div className="flex flex-col">
