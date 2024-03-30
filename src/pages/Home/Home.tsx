@@ -25,50 +25,48 @@ const Home: React.FC = () => {
             <div className="bg-white/10 text-3xl h-1/2 flex flex-col items-center justify-center">
                 <h1 className="p-8"> Join an active community with members from top companies </h1>
 
-                <div className="flex flex-row items-center justify-center">
-                    <div className="h-26 w-32 ">
+                <div className="flex flex-row items-center justify-center gap-4">
+                    <div className="h-26 w-32 p-2">
                         <img src={meta_logo} className="object-cover object-center h-full w-full"/>
                     </div>
-                    <div className="h-24 w-28 p-2">
-                        <img src={tesla_logo}/>
+                    <div className="h-26 w-32 p-2">
+                        <img src={tesla_logo} className="object-cover object-center h-full w-full"/>
                     </div>
-                    <div className="h-28 w-36 p-2">
+                    <div className="h-26 w-32 p-2">
                         <img src={microsoft_logo} className="object-cover object-center h-full w-full"/>
                     </div>
-                    <div className="h-28 w-34 p-2">
+                    <div className="h-26 w-32 p-2">
                         <img src={amazon_logo} className="object-cover object-center h-full w-full"/>
                     </div>
-                    <div className="h-24 w-24 p-2">
+                    <div className="h-26 w-32 p-2">
                         <img src={datadog_logo} className="object-cover object-center h-full w-full"/>
                     </div>
-                    <div className="h-24 w-28 p-2">
+                    <div className="h-26 w-32 p-2">
                         <img src={tiktok_logo} className="object-cover object-center h-full w-full"/>
                     </div>
 
                 </div>
-                <div className="flex flex-row items-center justify-center ">
-                    <div className="h-24 w-24 p-4">
+                <div className="flex flex-row items-center justify-center gap-4">
+                    <div className="h-26 w-32 p-2">
                         <img src={google_logo} className="object-cover object-center h-full w-full"/>
                     </div>
-                    <div className="w-3 p-1"></div>
-                    <div className="h-24 w-24 p-2">
-                        <img src={coinbase_logo}/>
+                    <div className="h-26 w-32 p-2">
+                        <img src={coinbase_logo} className="object-cover object-center h-full w-full"/>
                     </div>
-                    <div className="w-3 p-1"></div>
 
-                    <div className="h-28 w-36 p-2">
+                    <div className="h-26 w-32 p-2">
                         <img src={roblox_logo} className="object-cover object-center h-full w-full"/>
                     </div>
 
-                    <div className="h-22 w-24 p-4">
+                    <div className="h-26 w-32 p-2">
                         <img src={palantir_logo} className="object-cover object-center h-full w-full"/>
                     </div>
 
-                    <div className="h-24 w-24 p-2 ">
+                    <div className="h-26 w-32 p-2 ">
                         <img src={snowflake_logo} className="object-cover object-center h-full w-full"/>
                     </div>
 
-                    <div className="h-30 w-28 p-4">
+                    <div className="h-26 w-32 p-4">
                         <img src={bloomberg} className="object-cover object-center h-full w-full"/>
                     </div>
 
