@@ -35,7 +35,7 @@ const Home: React.FC = () => {
                     <div className="h-28 w-36 p-2">
                         <img src={microsoft_logo} className="object-cover object-center h-full w-full"/>
                     </div>
-                    <div className="h-28 w-34 p-2">
+                    <div className="h-26 w-32 p-4">
                         <img src={amazon_logo} className="object-cover object-center h-full w-full"/>
                     </div>
                     <div className="h-24 w-24 p-2">
