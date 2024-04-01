@@ -19,8 +19,8 @@ const Home: React.FC = () => {
                 className="absolute inset-0 bg-[url('/src/assets/images/calabasas-country-club-home-photo.jpg')] h-1/2 bg-cover bg-center"></div>
             <div className=" absolute inset-0"></div>
             <div className="bg-black/50 relative flex flex-col items-center justify-center  text-center p-4 h-1/2">
-                <h1 className="text-6xl text-white font-semibold mb-4">CS Country Club</h1>
-                <h4 className="text-4xl text-white font-semibold ">The Best for the Best</h4>
+                <h1 className="text-6xl sm:text-5xl md:text-6xl text-white font-semibold mb-4">CS Country Club</h1>
+                <h4 className="text-6xl sm:text-5xl md:text-6xl  text-white font-semibold ">The Best for the Best</h4>
             </div>
             <div className="bg-white/10 text-3xl h-1/2 flex flex-col items-center justify-center">
                 <h1> Join an active community with members from top companies </h1>

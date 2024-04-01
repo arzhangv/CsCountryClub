@@ -9,25 +9,25 @@ const Navbar = () => {
         <div className="space-x-4 p-3">
           <Link
             to="/"
-            className="hover:text-gold-500 transition-colors duration-200 text-3xl p-10"
+            className="hover:text-gold-500 transition-colors duration-200 text-3xl sm:text-5xl md:text-3xl p-10"
           >
             Home
           </Link>
           <Link
             to="/mission"
-            className="hover:text-gold-500 transition-colors duration-200 text-3xl p-10"
+            className="hover:text-gold-500 transition-colors duration-200 text-3xl sm:text-5xl md:text-3xl p-10"
           >
             Mission
           </Link>
           <Link
             to="/apply"
-            className="hover:text-gold-500 transition-colors duration-200 text-3xl p-10"
+            className="hover:text-gold-500 transition-colors duration-200  text-3xl sm:text-5xl md:text-3xl  p-10"
           >
             Apply
           </Link>
           <Link
             to="/about"
-            className="hover:text-gold-500 transition-colors duration-200 text-3xl p-10"
+            className="hover:text-gold-500 transition-colors duration-200 text-3xl sm:text-5xl md:text-3xl  p-10"
           >
             About
           </Link>
