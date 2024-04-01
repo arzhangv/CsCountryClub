@@ -13,7 +13,7 @@ import snowflake_logo from "../../assets/images/logos/snowflake2.png"
 import bloomberg from "../../assets/images/logos/bloomberg.png"
 const Home: React.FC = () => {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col p-6">
         <div className="relative overflow-hidden rounded-sm h-screen">
             <div
                 className="absolute inset-0 bg-[url('/src/assets/images/calabasas-country-club-home-photo.jpg')] h-1/2 bg-cover bg-center"></div>
@@ -23,7 +23,7 @@ const Home: React.FC = () => {
                 <h4 className="text-4xl text-white font-semibold ">The Best for the Best</h4>
             </div>
             <div className="bg-white/10 text-3xl h-1/2 flex flex-col items-center justify-center">
-                <h1 className="p-8"> Join an active community with members from top companies </h1>
+                <h1> Join an active community with members from top companies </h1>
 
                 <div className="flex flex-row items-center justify-center">
                     <div className="h-26 w-32 ">
