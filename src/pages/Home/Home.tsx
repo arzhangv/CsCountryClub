@@ -13,7 +13,7 @@ import snowflake_logo from "../../assets/images/logos/snowflake2.png"
 import bloomberg from "../../assets/images/logos/bloomberg.png"
 const Home: React.FC = () => {
   return (
-    <div className="flex flex-col p-6">
+    <div className="flex flex-col">
         <div className="relative overflow-hidden rounded-sm h-screen">
             <div
                 className="absolute inset-0 bg-[url('/src/assets/images/calabasas-country-club-home-photo.jpg')] h-1/2 bg-cover bg-center"></div>
