@@ -19,11 +19,11 @@ const Home: React.FC = () => {
                 className="absolute inset-0 bg-[url('/src/assets/images/calabasas-country-club-home-photo.jpg')] h-1/2 bg-cover bg-center"></div>
             <div className=" absolute inset-0"></div>
             <div className="bg-black/50 relative flex flex-col items-center justify-center  text-center p-4 h-1/2">
-                <h1 className="text-6xl text-white font-semibold mb-4">CS Country Club</h1>
-                <h4 className="text-4xl text-white font-semibold ">The Best for the Best</h4>
+                <h1 className="text-6xl sm:text-5xl md:text-6xl text-white font-semibold mb-4">CS Country Club</h1>
+                <h4 className="text-6xl sm:text-5xl md:text-6xl  text-white font-semibold ">The Best for the Best</h4>
             </div>
             <div className="bg-white/10 text-3xl h-1/2 flex flex-col items-center justify-center">
-                <h1 className="p-8"> Join an active community with members from top companies </h1>
+                <h1> Join an active community with members from top companies </h1>
 
                 <div className="flex flex-row items-center justify-center gap-4">
                     <div className="h-26 w-32 p-2">
@@ -35,7 +35,7 @@ const Home: React.FC = () => {
                     <div className="h-26 w-32 p-2">
                         <img src={microsoft_logo} className="object-cover object-center h-full w-full"/>
                     </div>
-                    <div className="h-26 w-32 p-2">
+                    <div className="h-26 w-32 p-4">
                         <img src={amazon_logo} className="object-cover object-center h-full w-full"/>
                     </div>
                     <div className="h-26 w-32 p-2">
